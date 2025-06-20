@@ -2,7 +2,7 @@
 // File format: https://aka.ms/devcontainer.json. 
 {
 	// Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
-	"image": "mcr.microsoft.com/devcontainers/universal:2",
+	"image": "mcr.microsoft.com/devcontainers/universal:latest",
 	
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
 	// workaround for https://github.com/microsoft/vscode-livepreview/issues/111 : click on both ports before opening preview
