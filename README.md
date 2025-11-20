@@ -1,53 +1,39 @@
-# Template voor Praktische Opdracht Webdesign
+# Website PO uit Fundament 
+Template voor het maken van de websote PO uit \
+[Fundament Kernprogramma A: Vaardigheden 2. HTML & CSS hoofdstuk 5](https://fundament-online.nl/leeromgeving/hoofdstuk.php?id=12181)
 
-This repository is a template for Dutch students of Stanislascollege Westplantsoen grade havo-4 and vwo-4 (highschool grade 10 in the US-system).
-It contains startcode for an assigment to build a website. The recommended IDE for this template is Codespaces.
+In _Paragraaf 5.2. Voorbereiding_ start je in dit template. Doe eerst tap 1 tot en met stap 5 uit deze README. Doe daarna wat aangegeven staat in paragraaf 5.2. Maak geen map _eindopdracht_, maar zet je bestanden in de hoofdmap van de Codespace.
 
-## 1. Open een Codespace
+## 1. Bekijk code
 
-Een Codespace is een online ontwikkelomgeving. Dat betekent dat je via een browser toegang krijgt tot een server. Op de server staat een kopie van jouw bestanden uit GitHub.
+- Open een Codespace
+- Start een webserver in de terminal van de Codespace met het commando 
+    ```
+    npx -y vite
+    ```
+- Als je het commando knipt en plakt, dan verschijnt er de eerste keer links bovenin je scherm een popup waarin je toestemming moet geven.
+- Om het commando uit te voeren druk je op de [Enter]-toets.
+- Een popup verschijnt met de vraag of je een browser wilt openen verschijnt rechtonder in je scherm. Klik op de groene knop "In Browser Openen".
+- Je ziet de inhoud van het `index.html` bestand in het geopende browserwindow. Klik op de link van de eerste opdracht om het resultaat te zien.
 
-    - klik op groen knop "Code" (1)
-    - klik op tabje "Codespaces" (2)
-    - klik op "Create Codespace on main" (3)
+## 2. Maak nieuwe opdracht
 
-Elk teamlid heeft een eigen Codespace, maar je deelt één GitHub repository je teamleden.
+- Maak een volgende opdracht van \
+    [Fundament Kernprogramma A: Vaardigheden 2. HTML & CSS (2025) hoofdstuk 5](https://fundament-online.nl/leeromgeving/hoofdstuk.php?id=12181)
+
+## 3. Bekijk het resultaat
+
+- De aanpassingen worden automatisch in het browser-window getoond    
+
+## 4. Bewaar je werk in GitHub
+
+- Klik op het icoontje met de twee streepjes en 3 bolletjes (1)
+- Type bij "Message" de opdracht waaraan je gewerkt hebt en enkele woorden wat je gedaan hebt (2)
+- Klik op "Commit & Sync" (3)
   
-![Codespace](images/codespace.png)
+![Commit](README_images/commit_small.png)
 
-## 2. Maak een aanpassing aan je website
+## 5. Problemen oplossen
 
-Je kunt nieuwe mappen en bestanden maken, kopieren een nieuwe naam geven of uploaden. Bestanden uploaden gebruik je voor plaatjes.
-
-    - Voeg in het bestand index.html op de plek van de drie puntjes je favoriete kleur toe.
-    
-![Bestanden](images/bestand.png)
-
-## 3. Bekijk het resultaat in een browser.
-
-Omdat er een bug (foutje) in de preview-functie zit, moet je de volgende stappen doen voordat je de eerste preview opent
-
-    - Klik op Ports (1)
-    - Klik op de bovenste regel (port 3000) en vervolgens op het wereldbolletje dat verschijnt (2), er opent een nieuw tabblad, sluit het zojuist geopende tabblad
-    - Klik op de bovenste regel (port 3001) en vervolgens op het wereldbolletje dat verschijnt (2), er opent een nieuw tabblad, sluit het zojuist geopende tabblad
-    
-![Preview](images/previewbug.png)
-
-    - Klik linksboven op het icoontje met de twee velletjes papier, zodat de explorer zichtbaar wordt. (1)
-    - Klik op een .html bestand, het bestand wordt geopend (2)
-    - Klik op het Show Preview icoon in de balk boven het bestand waarin ook de naam van het bestand staat, een preview wordt geopend (3)
-    - Wijzigingen die je doet in het bestand worden direct in de preview zichtbaar
-    
-![Preview](images/preview.png)
-
-## 4. Bewaar je laatste versie in GitHub.
-
-    - Klik op het icoontje met de twee streepjes en 3 bolletjes (1)
-    - Type bij "Message" enkele woorden wat je gedaan hebt (2)
-    - Klik op "Commit & Sync" (3)
-  
-![Commit](images/commit.png)
-
-## Informatie over GitHub met Codespaces
-
-- https://stanislas.informatica.nu/help/codespaces/
+- Meer informatie over GitHub met Codespaces \
+    https://stanislas.informatica.nu/help/codespaces

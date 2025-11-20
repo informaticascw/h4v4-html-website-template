@@ -3,21 +3,21 @@
 {
 	// Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
 	"image": "mcr.microsoft.com/devcontainers/universal:latest",
+
+	// Use 'postCreateCommand' to run commands after the container is created.
+	// "git config pull.rebase false", => needs to be configured before first pull or merge to prevent error
+	// "git config merge.ours.driver true", => configure git to use 'ours' merge strategy by default, this is not very git-like, but makes it easier voor studenten
+	// "git config --global merge.conflictStyle diff3" => show source between ours and theirs in merge conflicts
+	"postCreateCommand": "git config pull.rebase false && git config merge.ours.driver true && git config --global merge.conflictStyle diff3", 
 	
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
-	// workaround for https://github.com/microsoft/vscode-livepreview/issues/111 : click on both ports before opening preview
 	"forwardPorts": [
-		3000,
-		3001
+		5173
 	],
 	"portsAttributes": {
-		"3000": {
-			"label": "Live Preview webserver",
-			"onAutoForward": "silent" 
-		},
-		"3001": {
-			"label": "Live Preview websocket",
-			"onAutoForward": "silent" 
+		"5173": {
+			"label": "Web Server",
+			"onAutoForward": "notify" // openBrowser is often blocked
 		}
 	},
 	
@@ -29,11 +29,8 @@
 				"mathematic.vscode-pdf", // add viewer for pdf-files (this one supports vscode-web)
 				"ms-vsliveshare.vsliveshare", // add google-docs like typing in same file, click on live-share button in left icon pane
 				"mhutchie.git-graph", // add graphical viewer for branches and commits, click on button in Source-Code tab
-				"ms-vscode.live-server" // add auto-update webserver to preview html files, right click on file an select Show Preview
-			],
-			"settings": {
-				"livePreview.previewDebounceDelay": 500 // auto-reload the default value of 50ms causes the preview to reload while new changes are begin made and remain unnoticed.
-			}
+				"GitHub.copilot-chat", "GitHub.copilot" // finish Copilot setup
+			]
 		}
 	}
 }
