@@ -1,8 +1,15 @@
 # Website PO uit Fundament 
-Template voor het maken van de websote PO uit \
+Template voor het maken van de website PO uit \
 [Fundament Kernprogramma A: Vaardigheden 2. HTML & CSS hoofdstuk 5](https://fundament-online.nl/leeromgeving/hoofdstuk.php?id=12181)
 
-In _Paragraaf 5.2. Voorbereiding_ start je in dit template. Doe eerst tap 1 tot en met stap 5 uit deze README. Doe daarna wat aangegeven staat in paragraaf 5.2. Maak geen map _eindopdracht_, maar zet je bestanden in de hoofdmap van de Codespace.
+Deze praktische opdracht maak je als volgt:
+1. Je zorgt dat iedereen uit je groepje evenveel code maakt en je bewaart je werk elke les in GitHub.
+2. In _paragraaf 5.2. Voorbereiding_ start je met coderen in dit template. Doe eerst stap 1 tot en met stap 5 uit deze README. Doe daarna wat aangegeven staat in paragraaf 5.2. Maak geen map _eindopdracht_, maar zet je bestanden in de hoofdmap van de Codespace.
+3. In _paragraaf 5.3_ tot en met _paragraaf 5.6_ werk je aan de basis van je website. Je maakt alle opdrachten in deze paragrafen.
+4. Daarna maak je uitbreidingen aan je website die je zelf verzint. Je mag het soort eten dat je verkoopt aanpassen, maar de meeste punten verdien je natuurlijk met nette html en css waarvan je zelf hebt uitgezocht hoe het werkt.
+5. Tot slot voeg je een samenvatting in pdf toe van 
+[Fundament Kernprogramma E: Architectuur -> Security (E2)](https://fundament-online.nl/leeromgeving/hoofdstuk.php?id=10504)
+6. De inleverdatum staat in de planner. Je docent kijkt na wat er op de deadline in GitHub staat.
 
 ## 1. Bekijk code
 
